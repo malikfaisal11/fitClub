@@ -1,0 +1,76 @@
+/* ProductPage.css */
+
+/* Style the product container */
+.container {
+    display: flex; /* Use flex display */
+    align-items: center; /* Center items vertically within each row */
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    padding-top: 0px;
+    margin-left: 5.5rem;
+    margin-bottom: 40px;
+    flex-wrap: wrap; /* Allow products to wrap to the next row */
+ float: left;
+background-color: #ccc;
+}
+  
+  /* Adjust the width of each product container to fit in rows */
+  .container {
+     /* Adjust the width as needed (33.33% for three products in a row) */
+    margin-right: 20px; /* Add spacing between products */
+  }
+  
+  /* Clear the margin for the last product in each row */
+  .container:nth-child(3n) {
+    margin-right: 0;
+  }
+  
+  /* Style the product image */
+  .container img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    object-fit: cover; /* Maintain image aspect ratio */
+  }
+  
+  /* Style the product details */
+  .container div {
+    flex-grow: 1;
+  }
+  
+  /* Style the product name */
+  .container h3 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  /* Style the product price */
+  .container p {
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  /* Style the product details and description */
+  .container p {
+    font-size: 14px;
+    color: #555;
+  }
+  
+  /* Style the "Add to Cart" button */
+  .container button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+  }
+  
+  /* Style the "Add to Cart" button on hover */
+  .container button:hover {
+    background-color: #0056b3;
+  }
+  

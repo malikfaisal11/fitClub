@@ -1,5 +1,5 @@
 import React from 'react';
-import Header from '../Header/Header';
+
 import './Hero.css'
 import BmiCalculator from '../BmiCalculater/BmiCalculater';
 
@@ -10,7 +10,7 @@ const Hero = () => {
     <div className="hero">
       <div className="left-h">
      
-      <Header/>
+ 
      
         {/*the best ad*/}
         <div className="the-best-ad">
@@ -60,9 +60,6 @@ const Hero = () => {
       </div>
   
       <div className="right-h">
-      <div className='hero-button'>
-          <buttons>Join Us</buttons>
-          </div>
           <BmiCalculator/>
 
       </div>

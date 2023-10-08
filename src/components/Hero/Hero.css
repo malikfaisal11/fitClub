@@ -130,29 +130,7 @@ border: 2px solid orangered;
     }
 
 
-.hero-button{
-    text-decoration: none;
-    display: inline-flex;
-    text-indent: 1.5rem;
-    font-weight: normal;
-    color: White;
-    background-color:orangered;
-    height: 3rem;
-    width: 6rem;
-    padding-top: 0.8rem!important;
-    padding-bottom: 1rem!important;
-    border-radius: 0.5rem;
-    text-transform: uppercase;
-float: right;
-margin-right: 2rem;
-margin-top: 1rem;
-}
 
-.hero-button:hover{
-    color: black;
-cursor: pointer;
-zoom: 110%;
-}
 
 
 
